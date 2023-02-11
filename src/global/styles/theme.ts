@@ -22,6 +22,6 @@ export default {
         regular: "Roboto_400Regular",
         mediun: "Roboto_500Medium",
         bold: "Roboto_700Bold",
-        black: "Roboto_900Black_Italic"
+        black: "Roboto_900Black"
     }
 }
