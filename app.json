@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "sisVenda",
+    "slug": "sisVenda",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
