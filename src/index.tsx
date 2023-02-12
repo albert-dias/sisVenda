@@ -16,6 +16,9 @@ import { ThemeProvider } from 'styled-components/native';
 import theme from './global/styles/theme';
 import { SignIn } from './screens/SignIn';
 import { Home } from './screens/Home';
+import { AuthProvider } from './hooks/auth';
+import Routes from './routes';
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   SplashScreen.preventAutoHideAsync();
@@ -33,8 +36,12 @@ export default function App() {
   }
   SplashScreen.hideAsync();
   return (
-    <ThemeProvider theme={theme}>
-      <Home />
-    </ThemeProvider>
+    <NavigationContainer>
+      <ThemeProvider theme={theme}>
+        <AuthProvider>
+          <Routes />
+        </AuthProvider>
+      </ThemeProvider>
+    </NavigationContainer>
   );
 }

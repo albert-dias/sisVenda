@@ -5,6 +5,42 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EDFCF4"
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.sisVenda",
+      "buildNumber": "4.0.12",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Este app precisa de permissão para acessar sua localização para cadastrar sua venda!"
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCDsc9pmM4xfjWcIyNokhgbrd5SYQDiz7o"
+      }
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCDsc9pmM4xfjWcIyNokhgbrd5SYQDiz7o"
+        }
+      },
+      "package": "br.com.sisVenda",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "versionCode": 14,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EDFCF4"
+      }
+    }
   }
 }

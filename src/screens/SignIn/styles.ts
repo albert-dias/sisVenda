@@ -4,7 +4,6 @@ import { RFPercentage, RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
   background: ${({ theme }) => theme.colors.background};
 `;
 
@@ -34,7 +33,6 @@ export const Subtitle = styled.Text`
 `;
 
 export const ContentForm = styled.View`
-  flex:1;
   width: 100%;
   padding: ${RFValue(16)}px ${RFValue(16)}px ${Platform.OS === "ios" ? getBottomSpace() + RFValue(16) : RFValue(16)}px;
   justify-content: center;
