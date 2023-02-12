@@ -23,7 +23,7 @@ export const Row = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: ${RFValue(16)}px;
+  font-size: ${RFValue(14)}px;
   color: ${({ theme }) => theme.colors.text};
 `;
 

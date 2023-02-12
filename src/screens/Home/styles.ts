@@ -11,7 +11,7 @@ export const Container = styled.View`
 export const ContentTop = styled.View`
   background: ${({ theme }) => theme.colors.primary};
   height: ${RFPercentage(35)}px;
-  padding: ${Platform.OS === 'ios' ? getStatusBarHeight() + RFValue(16) : RFValue(16)}px ${RFValue(16)}px ${RFValue(16)}px;
+  padding: ${Platform.OS === 'ios' ? getStatusBarHeight() + RFValue(16) : RFValue(40)}px ${RFValue(16)}px ${RFValue(16)}px;
 `;
 
 export const ContentHeader = styled.View`

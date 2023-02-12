@@ -176,7 +176,7 @@ export function Home() {
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <ContentModal >
             <KeyboardAvoidingView
-              keyboardVerticalOffset={Platform.OS === "ios" ? 0 : RFValue(45)}
+              keyboardVerticalOffset={Platform.OS === "ios" ? 0 : RFValue(44)}
               behavior="position"
               enabled
             >

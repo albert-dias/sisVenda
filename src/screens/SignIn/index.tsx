@@ -13,7 +13,7 @@ import {
   ContentForm
 } from './styles';
 
-import Logo from '../../assets/logo.svg'
+import Logo from '../../assets/logo.svg';
 export function SignIn() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -58,7 +58,7 @@ export function SignIn() {
             label='Senha'
             placeholder="Senha"
             filled={password !== ""}
-            keyboardType="email-address"
+            keyboardType="default"
             onChangeText={setPassword}
             value={password}
             autoCapitalize="none"
