@@ -11,9 +11,9 @@
       "android"
     ],
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#EDFCF4"
+      "backgroundColor": "#5636D3"
     },
     "ios": {
       "bundleIdentifier": "br.com.sisVenda",
@@ -38,8 +38,8 @@
       ],
       "versionCode": 14,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#EDFCF4"
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#5636D3"
       }
     }
   }

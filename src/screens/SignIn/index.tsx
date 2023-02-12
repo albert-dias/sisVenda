@@ -8,12 +8,12 @@ import { useAuth } from '../../hooks/auth';
 import {
   Container,
   TopContent,
-  Logo,
   Title,
   Subtitle,
   ContentForm
 } from './styles';
 
+import Logo from '../../assets/logo.svg'
 export function SignIn() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -40,7 +40,7 @@ export function SignIn() {
     >
       <Container>
         <TopContent>
-          <Logo></Logo>
+          <Logo />
           <Title>Sistema de vendas</Title>
           <Subtitle>Entregando os melhores produtos em qualquer lugar!</Subtitle>
         </TopContent>

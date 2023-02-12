@@ -12,7 +12,7 @@ export const TopContent = styled.View`
   padding: ${Platform.OS === "ios" ? getStatusBarHeight() + RFValue(16) : RFValue(16)}px ${RFValue(16)}px ${RFValue(24)}px;
   background: ${({ theme }) => theme.colors.primary};
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 `;
 
 export const Logo = styled.View`
